@@ -30,16 +30,7 @@ const Projects = () => {
       // githubLink: "https://github.com/pavanpandya/task-manager",
       featured: true
     },
-    // {
-    //   title: "Weather Dashboard",
-    //   description: "A weather application that provides current and forecasted weather information for locations worldwide with interactive visualizations.",
-    //   image: "https://images.pexels.com/photos/1118873/pexels-photo-1118873.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
-    //   tags: ["JavaScript", "Weather API", "Chart.js", "CSS3"],
-    //   category: "frontend",
-    //   liveLink: "https://weather-app-demo.com",
-    //   githubLink: "https://github.com/pavanpandya/weather-dashboard",
-    //   featured: false
-    // },
+    
     {
       title: "Portfolio Website",
       description: "A professional portfolio website to showcase skills, projects, and experience with a responsive design and dark/light mode.",
@@ -47,19 +38,10 @@ const Projects = () => {
       tags: ["React", "Vite", "Tailwind CSS", "Framer Motion"],
       category: "frontend",
       liveLink: "https://portfolio-demo.com",
-      githubLink: "https://github.com/pavanpandya/portfolio",
+      githubLink: "https://github.com/SwarnaGowriS/My-Portfolio",
       featured: true
     },
-    // {
-    //   title: "Blog Platform",
-    //   description: "A content management system for creating and managing blog posts with categories, tags, and user comments.",
-    //   image: "https://images.pexels.com/photos/261662/pexels-photo-261662.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
-    //   tags: ["Next.js", "MongoDB", "Tailwind CSS", "NextAuth.js"],
-    //   category: "fullstack",
-    //   liveLink: "https://blog-demo.com",
-    //   githubLink: "https://github.com/pavanpandya/blog-platform",
-    //   featured: false
-    // },
+   
     {
       title: "News App",
       description: "A news application that provides up-to-date news articles from various sources with a user-friendly interface.",
