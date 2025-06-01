@@ -1,13 +1,13 @@
 import { useEffect } from 'react';
 import { BrowserRouter as Router, Routes, Route, useLocation } from 'react-router-dom';
-import Header from './components/Header';
-import Hero from './components/Hero';
-import About from './components/About';
-import Skills from './components/Skills';
-import Experience from './components/Experience';
-import Projects from './components/Projects';
-import Contact from './components/Contact';
-import Footer from './components/Footer';
+import Header from './Layout/Header';
+import Hero from './Pages/Hero';
+import About from './Pages/About';
+import Skills from './Pages/Skills';
+import Experience from './Pages/Experience';
+import Projects from './Pages/Projects';
+import Contact from './Pages/Contact';
+import Footer from './Layout/Footer';
 import DetailedProfile from './components/DetailedProfile';
 import './App.css';
 
