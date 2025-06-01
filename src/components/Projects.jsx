@@ -47,7 +47,7 @@ const Projects = () => {
       tags: ["React", "Vite", "Tailwind CSS", "Framer Motion"],
       category: "frontend",
       liveLink: "https://portfolio-demo.com",
-      githubLink: "https://github.com/pavanpandya/portfolio",
+      githubLink: "https://github.com/SwarnaGowriS/My-Portfolio",
       featured: true
     },
     // {
