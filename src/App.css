@@ -1,0 +1,143 @@
+#root {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+main {
+  flex: 1;
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #0ea5e9;
+  border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #0284c7;
+}
+
+/* Dark mode scrollbar */
+.dark ::-webkit-scrollbar-track {
+  background: #0f172a;
+}
+
+.dark ::-webkit-scrollbar-thumb {
+  background: #0ea5e9;
+}
+
+/* Selection color */
+::selection {
+  background-color: rgba(14, 165, 233, 0.3);
+}
+
+/* Animated background */
+.animated-bg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  opacity: 0.05;
+}
+
+/* Blob animation */
+.blob {
+  position: absolute;
+  border-radius: 50%;
+  filter: blur(60px);
+}
+
+.blob-1 {
+  top: 20%;
+  left: 10%;
+  width: 300px;
+  height: 300px;
+  background: rgba(14, 165, 233, 0.4);
+  animation: blob-move 15s infinite alternate ease-in-out;
+}
+
+.blob-2 {
+  bottom: 10%;
+  right: 10%;
+  width: 350px;
+  height: 350px;
+  background: rgba(16, 185, 129, 0.4);
+  animation: blob-move 20s infinite alternate-reverse ease-in-out;
+}
+
+@keyframes blob-move {
+  0% {
+    transform: translate(0, 0) scale(1);
+  }
+  33% {
+    transform: translate(50px, -50px) scale(1.1);
+  }
+  66% {
+    transform: translate(-20px, 20px) scale(0.9);
+  }
+  100% {
+    transform: translate(0, 0) scale(1);
+  }
+}
+
+/* Override for typing text to remove cursor */
+.typing-text {
+  animation: none !important;
+  border-right: none !important;
+  width: auto !important;
+  max-width: none !important;
+}
+
+/* Gradient text animation */
+.animated-gradient-text {
+  background: linear-gradient(to right, #0ea5e9, #10b981, #0ea5e9);
+  background-size: 200% auto;
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  animation: gradient-shift 3s linear infinite;
+}
+
+@keyframes gradient-shift {
+  0% { background-position: 0% center; }
+  100% { background-position: 200% center; }
+}
+
+/* Hover effects */
+.hover-lift {
+  transition: transform 0.3s ease;
+}
+
+.hover-lift:hover {
+  transform: translateY(-5px);
+}
+
+/* Reduce space between sections */
+.section-spacing-reduced {
+  margin-top: -5rem;
+  position: relative;
+  z-index: 10;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .blob-1, .blob-2 {
+    width: 200px;
+    height: 200px;
+  }
+  
+  .section-spacing-reduced {
+    margin-top: -3rem;
+  }
+}
