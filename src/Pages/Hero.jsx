@@ -149,7 +149,7 @@ const Hero = () => {
                 >
                   Get in Touch
                 </Link>
-                <a
+{/*                 <a
                   href="/resume.pdf"
                   download="Swarna_Gowri_S_Resume.pdf"
                   className="btn btn-outline flex items-center gap-2 group relative"
@@ -163,7 +163,7 @@ const Hero = () => {
                   <span className="absolute -top-10 left-1/2 -translate-x-1/2 bg-gray-800 text-white text-xs px-2 py-1 rounded opacity-0 group-hover:opacity-100 transition-opacity duration-300 pointer-events-none whitespace-nowrap">
                     Download PDF
                   </span>
-                </a>
+                </a> */}
               </div>
               
               <div className="flex mt-8 space-x-5">
