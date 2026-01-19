@@ -462,6 +462,59 @@ const DetailedProfile = () => {
 
               {/* Timeline for experience */}
               <div className="relative border-l-2 border-primary-500/30 pl-8 ml-6 space-y-10">
+                <motion.div
+                  className="relative"
+                  initial={{ opacity: 0, y: 20 }}
+                  animate={{ opacity: 1, y: 0 }}
+                  exit={{ opacity: 0, y: -20 }}
+                  transition={{ duration: 0.3 }}
+                >
+                  <div className="absolute -left-[42px] w-8 h-8 rounded-full bg-primary-500 flex items-center justify-center text-white">
+                    <FiGitBranch className="w-4 h-4" />
+                  </div>
+                  <div className="card p-6 hover:shadow-lg transition-shadow">
+                    <div className="flex flex-col md:flex-row md:items-center justify-between mb-4">
+                      <h3 className="text-xl font-semibold">Associate Trainee</h3>
+                      <span className="text-sm text-gray-500 dark:text-gray-400 bg-gray-100 dark:bg-dark-200 px-3 py-1 rounded-full">Feb 2025 - Present</span>
+                    </div>
+                    <p className="text-gray-700 dark:text-gray-300 mb-4 font-medium">Cloud Journee</p>
+
+                    <div className="space-y-4">
+                      <p className="text-gray-600 dark:text-gray-400">
+                        Built RAG pipelines on AWS to extract insights from large-scale internal data
+                      </p>
+
+                      <div className="space-y-2">
+                        <div className="flex items-start">
+                          <span className="text-primary-500 mr-2 mt-1">•</span>
+                          <p className="text-gray-600 dark:text-gray-400">Developing and maintaining web applications using React.js, Node.js, and MongoDB</p>
+                        </div>
+                        <div className="flex items-start">
+                          <span className="text-primary-500 mr-2 mt-1">•</span>
+                          <p className="text-gray-600 dark:text-gray-400">Designed knowledge bases, embeddings, and vector search using S3, SageMaker, Lambda, and OpenSearch</p>
+                        </div>
+                        <div className="flex items-start">
+                          <span className="text-primary-500 mr-2 mt-1">•</span>
+                          <p className="text-gray-600 dark:text-gray-400">Implemented prompt augmentation to produce accurate, source-grounded LLM outputs.</p>
+                        </div>
+                        <div className="flex items-start">
+                          <span className="text-primary-500 mr-2 mt-1">•</span>
+                          <p className="text-gray-600 dark:text-gray-400">Optimized for performance, security, and trustworthiness in real-world AI applications</p>
+                        </div>
+                      </div>
+
+                      <div className="flex flex-wrap gap-2 pt-2">
+                        <span className="px-2 py-1 bg-primary-500/10 text-primary-500 rounded text-sm">AWS</span>
+                        <span className="px-2 py-1 bg-secondary-500/10 text-secondary-500 rounded text-sm">RAG</span>
+                        <span className="px-2 py-1 bg-accent-500/10 text-accent-500 rounded text-sm">GEN AI</span>
+                        <span className="px-2 py-1 bg-primary-500/10 text-primary-500 rounded text-sm">LLM</span>
+                        <span className="px-2 py-1 bg-secondary-500/10 text-secondary-500 rounded text-sm">ML</span>
+                      </div>
+                    </div>
+                  </div>
+                </motion.div>
+
+
                 <motion.div 
                   className="relative"
                   initial={{ opacity: 0, y: 20 }}
