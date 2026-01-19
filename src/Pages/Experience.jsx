@@ -19,7 +19,7 @@ const Experience = () => {
       title: "Frontend Developer",
       company: "Yahweh Software Solutions",
       location: "Bengaluru, India",
-      period: "feb 2025 - Present",
+      period: "feb 2025 - May 2025",
       description: [
         "Developing and maintaining web applications using React.js, Node.js, and MongoDB",
         "Collaborating with cross-functional teams to define, design, and ship new features",
