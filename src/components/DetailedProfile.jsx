@@ -487,7 +487,7 @@ const DetailedProfile = () => {
                       <div className="space-y-2">
                         <div className="flex items-start">
                           <span className="text-primary-500 mr-2 mt-1">•</span>
-                          <p className="text-gray-600 dark:text-gray-400">Developing and maintaining web applications using React.js, Node.js, and MongoDB</p>
+                          <p className="text-gray-600 dark:text-gray-400">Built RAG pipelines on AWS to extract insights from large-scale internal data</p>
                         </div>
                         <div className="flex items-start">
                           <span className="text-primary-500 mr-2 mt-1">•</span>
