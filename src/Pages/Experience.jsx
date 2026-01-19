@@ -4,6 +4,18 @@ import { FiCalendar, FiMapPin } from 'react-icons/fi';
 const Experience = () => {
   const experiences = [
     {
+      title: "Associate Trainee",
+      company: "CloudJournee",
+      location: "Bengaluru, India",
+      period: "Nov 2025 - Present",
+      description: [
+        "Built RAG pipelines on AWS to extract insights from large-scale internal data.",
+        "Designed knowledge bases, embeddings, and vector search using S3, SageMaker, Lambda, and OpenSearch",
+        "Implemented prompt augmentation to produce accurate, source-grounded LLM outputs.",
+        "Optimized for performance, security, and trustworthiness in real-world AI applications."
+      ]
+    },
+    {
       title: "Frontend Developer",
       company: "Yahweh Software Solutions",
       location: "Bengaluru, India",
